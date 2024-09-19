@@ -1,0 +1,169 @@
+body{
+	margin:0;
+	font-family:arial;
+}
+.uppercontainer{
+	width:100%;
+	height:100px;
+	background-color:#4267B2;
+}
+.innercontainer{
+	width:1000px;
+	height:100px;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items:center;
+}
+.logo{
+	font-family:arial;
+	font-size:33px;
+	font-weight:bold;
+	color:white;
+}
+.logintable{
+	font-family:arial;
+	font-size:13px;
+	color:white;
+}
+.login-button{
+	background-color:#4169E1;
+	color:white;
+	padding:3px;
+	width:60px;
+	border:none;
+	box-shadow:1px 1px 5px black;
+}
+.maincontainer{
+	width:100%;
+	height:610px;
+	background-image:url('../images/img2.png')
+}
+.section{
+	display:flex;
+	flex-direction:row;
+	width:1000px;
+	height:610px;
+	margin:auto;
+}
+.left-section{
+	width:500px;
+	height:600px;
+	display:flex;
+	justify-content:space-between;
+}
+span{
+	width:320px;
+	height:auto;
+	font-family:arial;
+	font-size:13px;
+	margin-top:40px;
+}
+img{
+	width:150px;
+	height:360px;
+	margin-top:60px;
+}
+.left-section ul{
+	padding-left:15px;
+	color:grey;
+	margin-left:0;
+	line-height:25px;
+}
+.left-section h2,h3{
+	color:#203354;
+}
+.right-section{
+	width:500px;
+	height:600px;
+}
+.su{
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+}
+.righttable{
+	font-family:arial;
+	font-size:13px;
+	margin-top:50px;
+	margin-left:70px;
+	color:navy;
+}
+.righttable tr:nth-child(14){
+	color:black;
+}
+.righttable tr:nth-child(17){
+	color:black;
+}
+.righttable tr:nth-child(17) span{
+	color:navy;
+}
+.righttable tr:nth-child(14) span{
+	color:navy;
+}
+.righttable input[type="text"]
+{
+	width:228px;
+	height:28px;
+	border:solid 1px #CCC;
+}
+.righttable select{
+	border:solid 1px #CCC;
+	padding:5px;
+}
+.sign-up{
+	background-color:#228B22;
+	opacity:0.9;
+	color:white;
+	padding:3px;
+	width:90px;
+	border:1px solid black;
+}
+.get-button{
+	background-color:#4169E1;
+	opacity:0.9;
+	color:white;
+	padding:4px;
+	width:175px;
+	border:1px solid black;
+}
+.footer{
+	width:1000px;
+	height:80px;
+	margin:auto;
+	color:navy;
+}
+.in-footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.in-footer span{
+	margin-top:0px;
+	font-family:arial;
+	font-size:15px;
+	color:grey;
+}
+.flist1{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:13px;
+}
+.flist1 li{
+	display:inline;
+	margin-right:10px;
+}
+.flist2{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:13px;
+}
+.flist2 li{
+	margin-left:10px;
+	display:inline;
+}
